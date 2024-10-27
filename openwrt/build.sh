@@ -187,7 +187,7 @@ if [ "$1" = "rc2" ]; then
     git clone https://$github/openwrt/openwrt master/openwrt --depth=1
     git clone https://$github/openwrt/packages master/packages --depth=1
     #git clone https://$github/openwrt/luci master/luci --depth=1
-    clone https://github.com/Turing-China/luci.git master/luci --depth=1
+    git clone https://github.com/Turing-China/luci master/luci --depth=1
     git clone https://$github/openwrt/routing master/routing --depth=1
 fi
 
