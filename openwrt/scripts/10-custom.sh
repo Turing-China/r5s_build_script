@@ -22,3 +22,6 @@ if [ -d "$TARGET_DIR" ]; then
 else
     echo "目录 $TARGET_DIR 不存在。"
 fi
+
+./scripts/feeds update luci
+./scripts/feeds install luci-app-syncthing
