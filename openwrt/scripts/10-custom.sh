@@ -13,7 +13,7 @@ cp -r temp_luci/applications/luci-app-syncthing/*  package/luci-app-syncthing/ &
 rm -rf temp_luci
 
 # 指定要列出文件和目录的路径
-TARGET_DIR="package/luci-app-syncthing"
+TARGET_DIR="/builder/openwrt/package/luci-app-syncthing"
 
 # 检查目录是否存在
 if [ -d "$TARGET_DIR" ]; then
