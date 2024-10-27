@@ -186,7 +186,8 @@ git clone --depth=1 https://$github/openwrt/openwrt -b $branch
 if [ "$1" = "rc2" ]; then
     git clone https://$github/openwrt/openwrt master/openwrt --depth=1
     git clone https://$github/openwrt/packages master/packages --depth=1
-    git clone https://$github/openwrt/luci master/luci --depth=1
+    #git clone https://$github/openwrt/luci master/luci --depth=1
+    clone https://github.com/Turing-China/luci.git master/luci --depth=1
     git clone https://$github/openwrt/routing master/routing --depth=1
 fi
 
@@ -228,7 +229,8 @@ else
 fi
 cat > feeds.conf <<EOF
 src-git packages https://$github/openwrt/packages.git$packages
-src-git luci https://$github/openwrt/luci.git$luci
+# src-git luci https://$github/openwrt/luci.git$luci
+src-git luci https://github.com/Turing-China/luci.git
 src-git routing https://$github/openwrt/routing.git$routing
 src-git telephony https://$github/openwrt/telephony.git$telephony
 EOF
