@@ -332,8 +332,8 @@ CONFIG_VERSION_FILENAMES=y
 CONFIG_ZLIB_OPTIMIZE_SPEED=y
 
 ### UDPXY
-CONFIG_PACKAGE_udpxy=y
-CONFIG_PACKAGE_luci-app-udpxy=y
+# CONFIG_PACKAGE_udpxy=y
+# CONFIG_PACKAGE_luci-app-udpxy=y
 
 ### Syncthing
 CONFIG_PACKAGE_luci-app-syncthing=y
