@@ -8,6 +8,8 @@
 git clone https://github.com/Turing-China/luci-app-syncthing package/new/luci-app-syncthing
 # 迅雷下载
 git clone https://github.com/sbwml/luci-app-xunlei package/new/luci-app-xunlei
+# 访问AP/光猫
+git clone https://github.com/Turing-China/luci-app-ap-modem package/new/luci-app-ap-modem
 # Lucky大吉
 git clone https://github.com/sirpdboy/luci-app-lucky package/new/luci-app-lucky
 
